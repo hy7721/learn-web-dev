@@ -47,3 +47,10 @@ average = total / 7
 
 print(int(average))
 # 정수로 출력
+
+
+
+# 반복문으로 수정(100일 동안 등록한다고 할 때)
+for i in range(1,101):
+  x = int(input(i, "일차 턱걸이 횟수 >>>"))
+  data.append(x)
